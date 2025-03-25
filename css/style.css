@@ -1,0 +1,73 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Utils */
+
+.container{
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* debug */
+div{
+    border: 1px solid black;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-red{
+    background-color: red;
+}
+
+
+/* Generics */
+
+.label-position{
+    display: flex;
+    position: absolute;
+    bottom: 15%;
+}
+.label{
+    padding: 5px 10px;
+    color: white;
+    margin: 5px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Main */
+.card{
+    width: calc((100% - 40px) / 3);
+    position: relative;
+}
+figcaption{
+    font-size: 0.7rem;
+}
+.descrizione{
+    font-weight: bold;
+}
+.prezzo-sconto{
+    color: red;
+    font-weight: bold;
+    font-size: 0.9rem;
+    s{
+        color: black;
+        font-weight: normal;
+    }
+}
+
