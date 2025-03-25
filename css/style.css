@@ -1,42 +1,45 @@
 /* Reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
 /* Utils */
 
-.container{
+.container {
     max-width: 1000px;
     width: 80%;
     margin: 0 auto;
 }
 
-/* debug */
-div{
+/* debug
+div {
     border: 1px solid black;
-}
-.bg-green{
+} */
+
+.bg-green {
     background-color: green;
 }
-.bg-red{
+
+.bg-red {
     background-color: red;
 }
 
 
 /* Generics */
 
-.label-position{
+.label-position {
     display: flex;
     position: absolute;
     bottom: 15%;
 }
-.label{
+
+.label {
     padding: 5px 10px;
     color: white;
     margin: 5px;
@@ -44,30 +47,61 @@ div{
     font-weight: bold;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
+.hearth {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 1.5rem;
+    
+    p:hover {
+        color: red;
+    }
+}
+
 /* Main */
-.card{
+.card {
     width: calc((100% - 40px) / 3);
     position: relative;
 }
-figcaption{
+.card:hover .main-image{
+    display: none;
+}
+
+figcaption {
     font-size: 0.7rem;
 }
-.descrizione{
+
+.descrizione {
     font-weight: bold;
 }
-.prezzo-sconto{
+
+.prezzo-sconto {
     color: red;
     font-weight: bold;
     font-size: 0.9rem;
-    s{
+
+    s {
         color: black;
         font-weight: normal;
     }
 }
-
+.main-image{
+    position: absolute;
+}
+    
+.secondary-image{
+    right: 0;
+    bottom: 0;
+    display: 
+}
